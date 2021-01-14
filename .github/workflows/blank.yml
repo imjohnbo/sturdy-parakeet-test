@@ -20,5 +20,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Test it
         uses: docker://ghcr.io/imjohnbo/sturdy-parakeet:latest
-        with:
+        env:
           myInput: 'carolina'
